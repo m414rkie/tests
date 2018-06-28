@@ -16,7 +16,7 @@ f(x) = pi*(x**2)/(1.0-x)
 g(x,y) = (5*x**2 + y**2)**(0.5)
 
 ! Formatting statement. 
-50 format ("graphof",1a1,".dat")	
+50 format ("graphof_",1a1,".dat")	
 
 ! Initial user input
 15 write(*,*) "Enter F to graph f(x) or G to graph g(x,y)"
